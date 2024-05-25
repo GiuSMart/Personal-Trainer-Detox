@@ -1,0 +1,151 @@
+ <!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Trainer Detox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1e90ff;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #ff7f50;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery a {
+            margin: 10px;
+            display: inline-block;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact-form h2 {
+            margin-top: 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #ff7f50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #1e90ff;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Trainer Detox</h1>
+    </header>
+    <nav>
+        <a href="#about">Chi Sono</a>
+        <a href="#gallery">Prodotti</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+    <section class="hero">
+        <h1>Benvenuti nel Mio Mondo di Fitness</h1>
+        <p>Il tuo viaggio verso una vita sana inizia qui</p>
+    </section>
+    <section class="content" id="about">
+        <h2>Chi Sono</h2>
+        <p>Sono un Personal Trainer specializzato in programmi detox e di benessere. Aiuto le donne a raggiungere i loro obiettivi di salute e fitness attraverso allenamenti personalizzati e una nutrizione equilibrata.</p>
+    </section>
+    <section class="content" id="gallery">
+        <h2>Galleria Prodotti</h2>
+        <div class="gallery">
+            <a href="https://via.placeholder.com/200" target="_blank"><img src="https://via.placeholder.com/200" alt="Prodotto 1"></a>
+            <a href="https://via.placeholder.com/200" target="_blank"><img src="https://via.placeholder.com/200" alt="Prodotto 2"></a>
+            <a href="https://via.placeholder.com/200" target="_blank"><img src="https://via.placeholder.com/200" alt="Prodotto 3"></a>
+            <a href="https://via.placeholder.com/200" target="_blank"><img src="https://via.placeholder.com/200" alt="Prodotto 4"></a>
+        </div>
+    </section>
+    <section class="content" id="contact">
+        <div class="contact-form">
+            <h2>Contattami</h2>
+            <form action="mailto:tuoindirizzoemail@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Il tuo nome" required>
+                <input type="email" name="email" placeholder="La tua email" required>
+                <textarea name="message" rows="4" placeholder="Il tuo messaggio" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Seguimi sui social media!</p>
+        <p>
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a> | 
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
